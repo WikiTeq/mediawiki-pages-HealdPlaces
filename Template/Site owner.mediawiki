@@ -1,0 +1,5 @@
+<includeonly>{{#subobject:Name={{{Name|}}}}}
+'''Name:''' [[Name::{{{Name|}}}]]
+
+'''Date:''' {{{Date|}}}
+</includeonly>

@@ -1,0 +1,43 @@
+<includeonly>
+'''Alternate names:''' {{#arraymap:{{{Alternate names|}}}|;|x|[[Alternate name::x]]}}
+
+'''Date established:'''  {{Date
+  |Established
+  |Date={{{Established Date|}}}
+  |Circa={{{Established Circa|}}}
+  |Concurrence={{{Established Concurrence}}}
+  |Questionable={{{Established Questionable}}}
+  |EndDate={{{Established Date End|}}}
+  |EndCirca={{{Established Circa End|}}}
+  |EndConcurrence={{{Established Concurrence End|}}}
+  |EndQuestionable={{{Established Questionable End|}}}
+}}
+
+'''Date through:''' {{Date
+  |Through
+  |Date={{{Through Date|}}}
+  |Circa={{{Through Circa|}}}
+  |Concurrence={{{Through Concurrence}}}
+  |Questionable={{{Through Questionable}}}
+  |EndDate={{{Through Date End|}}}
+  |EndCirca={{{Through Circa End|}}}
+  |EndConcurrence={{{Through Concurrence End|}}}
+  |EndQuestionable={{{Through Questionable End|}}}
+}}
+
+'''Location:''' [[Location::{{{Location|}}}]]
+
+'''Condition:''' [[Condition::{{{Condition|}}}]]
+
+'''Keywords:''' {{#arraymap:{{{Keywords|}}}|,|x|[[Keyword::x]]}}
+
+
+'''Other resources:'''
+{{{Other resources|}}}
+
+'''Site owners:''' {{{Site owners|}}}
+
+'''Associated people:''' {{{Associated people|}}}
+
+[[Category:Places]]
+</includeonly>

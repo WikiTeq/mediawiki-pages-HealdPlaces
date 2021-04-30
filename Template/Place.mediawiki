@@ -1,0 +1,21 @@
+<includeonly>
+'''Alternate names:''' {{#arraymap:{{{Alternate names|}}}|;|x|[[Alternate name::x]]}}
+
+'''Date established:''' {{{Date established|}}}
+
+'''Location:''' [[Location::{{{Location|}}}]]
+
+'''Condition:''' [[Condition::{{{Condition|}}}]]
+
+'''Keywords:''' {{#arraymap:{{{Keywords|}}}|,|x|[[Keyword::x]]}}
+
+'''Date through:''' {{{Date through|}}}
+
+'''Other resources:''' {{{Other resources|}}}
+
+'''Site owners:''' {{{Site owners|}}}
+
+'''Associated people:''' {{{Associated people|}}}
+
+[[Category:Places]]
+</includeonly>

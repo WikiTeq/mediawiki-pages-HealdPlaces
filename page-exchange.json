@@ -1,0 +1,56 @@
+{
+    "publisher": "Ike Hecht",
+    "author": "Ike Hecht",
+    "language": "en",
+    "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-HealdPlaces",
+    "packages": {
+        "HEALD Places": {
+            "globalID": "heald-places",
+            "description": null,
+            "version": "0.1",
+            "pages": [
+                {
+                    "name": "Place",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template\/Place.mediawiki"
+                },
+                {
+                    "name": "Site owner",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template\/Site owner.mediawiki"
+                },
+                {
+                    "name": "Name",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Name.mediawiki"
+                },
+                {
+                    "name": "Condition",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Condition.mediawiki"
+                },
+                {
+                    "name": "Places",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Category\/Places.mediawiki"
+                },
+                {
+                    "name": "Place",
+                    "namespace": "PF_NS_FORM",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Form\/Place.mediawiki"
+                },
+                {
+                    "name": "Alternate name",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Alternate name.mediawiki"
+                },
+                {
+                    "name": "Location",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Location.mediawiki"
+                }
+            ],
+            "requiredExtensions": []
+        }
+    }
+}

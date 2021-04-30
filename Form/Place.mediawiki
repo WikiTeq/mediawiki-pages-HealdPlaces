@@ -1,0 +1,44 @@
+<noinclude>
+This is the "Place" form.
+To create a page with this form, enter the page name below;
+if a page with that name already exists, you will be sent to a form to edit that page.
+
+{{#forminput:form=Place|autocomplete on category=Places}}
+
+</noinclude><includeonly>
+<div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
+{{{for template|Place}}}
+{| class="formtable"
+! Alternate names: 
+| {{{field|Alternate names}}}
+|-
+! Date established: 
+| {{{field|Date established}}}
+|-
+! Location: 
+| {{{field|Location}}}
+|-
+! Condition: 
+| {{{field|Condition}}}
+|-
+! Keywords: 
+| {{{field|Keywords}}}
+|-
+! Date through: 
+| {{{field|Date through}}}
+|-
+! Other resources: 
+| {{{field|Other resources}}}
+|-
+! Site owners: 
+| {{{field|Site owners}}}
+|-
+! Associated people: 
+| {{{field|Associated people}}}
+|}
+{{{end template}}}
+
+'''Free text:'''
+
+{{{standard input|free text|rows=10}}}
+</includeonly>

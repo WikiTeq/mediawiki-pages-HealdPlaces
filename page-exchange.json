@@ -17,7 +17,7 @@
                 {
                     "name": "Site owner",
                     "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template\/Site owner.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template\/Site%20owner.mediawiki"
                 },
                 {
                     "name": "Name",
@@ -42,7 +42,7 @@
                 {
                     "name": "Alternate name",
                     "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Alternate name.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Alternate%20name.mediawiki"
                 },
                 {
                     "name": "Location",

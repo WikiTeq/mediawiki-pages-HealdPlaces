@@ -13,10 +13,14 @@ if a page with that name already exists, you will be sent to a form to edit that
 | {{{field|Alternate names}}}
 |-
 ! Date established: 
-| {{{field|Date established}}}
+| {{Form:Date|Prefix=Established}}
+|-
+! Date through: 
+| {{Form:Date|Prefix=Through}}
 |-
 ! Location: 
 | {{{field|Location}}}
+{{Geolocation field set}}
 |-
 ! Condition: 
 | {{{field|Condition}}}
@@ -24,18 +28,19 @@ if a page with that name already exists, you will be sent to a form to edit that
 ! Keywords: 
 | {{{field|Keywords}}}
 |-
-! Date through: 
-| {{{field|Date through}}}
-|-
-! Other resources: 
-| {{{field|Other resources}}}
-|-
 ! Site owners: 
 | {{{field|Site owners}}}
 |-
 ! Associated people: 
 | {{{field|Associated people}}}
+|-
+! Other resources: 
+| {{{field|Other resources|holds template}}}
 |}
+{{{end template}}}
+
+{{{for template|ExternalLink|multiple|embed in field=Place[Other resources]|add button text=Add resource}}}
+{{:Form:ExternalLink}}
 {{{end template}}}
 
 '''Free text:'''

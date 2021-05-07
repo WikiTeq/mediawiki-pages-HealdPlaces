@@ -9,6 +9,8 @@ Contains the Place data structure for the HEALD wiki
 * Maps
 * SemanticMediawiki
 * https://github.com/WikiTeq/heald-images
+* https://github.com/WikiTeq/mediawiki-pages-ExternalLink
+* https://github.com/WikiTeq/mediawiki-pages-Dates
 * Chameleon 3
 
 # Setup

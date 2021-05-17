@@ -11,6 +11,7 @@ Contains the Place data structure for the HEALD wiki
 * https://github.com/WikiTeq/mediawiki-pages-ExternalLink
 * https://github.com/WikiTeq/mediawiki-pages-Dates
 * https://github.com/WikiTeq/mediawiki-pages-Geolocation
+* https://github.com/WikiTeq/mediawiki-pages-HealdPerson
 * Chameleon 3
 
 # Setup

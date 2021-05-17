@@ -4,7 +4,7 @@ To create a page with this form, enter the page name below;
 if a page with that name already exists, you will be sent to a form to edit that page.
 
 {{#forminput:form=Place|autocomplete on category=Places}}
-
+[[Category:Mediawiki-pages-heald-places]]
 </noinclude><includeonly>
 <div id="wikiPreview" style="display: none; padding-bottom: 25px; margin-bottom: 25px; border-bottom: 1px solid #AAAAAA;"></div>
 {{{for template|Place}}}
@@ -30,18 +30,20 @@ if a page with that name already exists, you will be sent to a form to edit that
 |-
 ! Site owners: 
 | {{{field|Site owners|input type=tokens|list|delimiter=;|values from category=People}}}
-|-
-! Associated people: 
-| {{{field|Associated people|input type=tokens|list|delimiter=;|values from category=People}}}
+|- class="align-top"
+! class="pt-3" |Associated people: 
+| {{{field|Associated people|holds template}}}
 |-
 ! Other resources: 
 | {{{field|Other resources|holds template}}}
 |}
 {{{end template}}}
-
-{{{for template|ExternalLink|multiple|embed in field=Place[Other resources]|add button text=Add resource}}}
-{{:Form:ExternalLink}}
-{{{end template}}}
+<!-- -->{{{for template|Associated person|multiple|embed in field=Place[Associated people]|add button text=Add person}}}
+<!-- -->{{Associated people field set|hide-end-date}}
+<!-- -->{{{end template}}}
+<!-- -->{{{for template|ExternalLink|multiple|embed in field=Place[Other resources]|add button text=Add resource}}}
+<!-- -->{{:Form:ExternalLink}}
+<!-- -->{{{end template}}}
 
 '''Free text:'''
 

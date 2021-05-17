@@ -6,48 +6,83 @@
     "packages": {
         "HEALD Places": {
             "globalID": "heald-places",
-            "description": null,
+            "description": "Contains the Place data structure for the HEALD wiki.",
             "version": "0.1",
             "pages": [
                 {
                     "name": "Place",
-                    "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template\/Place.mediawiki"
-                },
-                {
-                    "name": "Site owner",
-                    "namespace": "NS_TEMPLATE",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template\/Site%20owner.mediawiki"
-                },
-                {
-                    "name": "Name",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Name.mediawiki"
-                },
-                {
-                    "name": "Condition",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Condition.mediawiki"
-                },
-                {
-                    "name": "Places",
-                    "namespace": "NS_CATEGORY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Category\/Places.mediawiki"
-                },
-                {
-                    "name": "Place",
                     "namespace": "PF_NS_FORM",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Form\/Place.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Form%2FPlace.mediawiki"
+                },
+                {
+                    "name": "Heald-places.css",
+                    "namespace": "NS_MEDIAWIKI",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/MediaWiki%2FHeald-places.css.mediawiki"
                 },
                 {
                     "name": "Alternate name",
                     "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Alternate%20name.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FAlternate%20name.mediawiki"
+                },
+                {
+                    "name": "Associated person",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FAssociated%20person.mediawiki"
+                },
+                {
+                    "name": "Condition",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FCondition.mediawiki"
+                },
+                {
+                    "name": "End Date",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FEnd%20Date.mediawiki"
+                },
+                {
+                    "name": "From Date",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FFrom%20Date.mediawiki"
+                },
+                {
+                    "name": "Keyword",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FKeyword.mediawiki"
                 },
                 {
                     "name": "Location",
                     "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property\/Location.mediawiki"
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FLocation.mediawiki"
+                },
+                {
+                    "name": "Name",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FName.mediawiki"
+                },
+                {
+                    "name": "Site owner",
+                    "namespace": "SMW_NS_PROPERTY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FSite%20owner.mediawiki"
+                },
+                {
+                    "name": "Associated people field set",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template%2FAssociated%20people%20field%20set.mediawiki"
+                },
+                {
+                    "name": "Associated person",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template%2FAssociated%20person.mediawiki"
+                },
+                {
+                    "name": "Place",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template%2FPlace.mediawiki"
+                },
+                {
+                    "name": "Site owner",
+                    "namespace": "NS_TEMPLATE",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template%2FSite%20owner.mediawiki"
                 }
             ],
             "requiredExtensions": [
@@ -56,10 +91,11 @@
 	            "chameleon"
             ],
 	        "requiredPackages": [
-			"heald-images",
-		        "ExternalLink",
-		        "DateStructure",
-		        "Geolocation"
+                    "heald-images",
+                    "ExternalLink",
+                    "DateStructure",
+                    "Geolocation",
+                    "HEALDPerson"
 	        ]
         }
     }

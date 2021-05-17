@@ -1,0 +1,18 @@
+/**
+*  Associated people
+*/
+
+.adjustable-date.hide-end-date .has-end-date {
+    display: none;
+}
+.date-range, .date-range * {
+     color: #444;
+}
+.date-range::before {
+     content: '(';
+}
+.date-range::after {
+     content: ')';
+}
+
+<noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

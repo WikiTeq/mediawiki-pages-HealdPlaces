@@ -29,15 +29,17 @@
 
 '''Condition:''' [[Condition::{{{Condition|}}}]]
 
-'''Keywords:''' {{#arraymap:{{{Keywords|}}}|,|x|[[Keyword::x]]}}
+'''Keywords:''' {{#arraymap:{{{Keywords|}}}|;|x|[[Keyword::x]]}}
 
 
 '''Other resources:'''
 {{{Other resources|}}}
 
-'''Site owners:''' {{{Site owners|}}}
+'''Site owners:'''
+{{{Site owners|}}}
 
-'''Associated people:''' {{{Associated people|}}}
+'''Associated people:'''
+{{{Associated people|}}}
 
 [[Category:Places]]
-</includeonly>
+</includeonly><noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

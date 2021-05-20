@@ -1,5 +1,21 @@
-<includeonly>{{#subobject:Name={{{Name|}}}}}
-'''Name:''' [[Name::{{{Name|}}}]]
-
-'''Date:''' {{{Date|}}}
-</includeonly>
+<includeonly>
+* [[{{{Name|}}}]] <span class="{{#if:{{{Owned Date|}}}{{{Owned End Date|}}}|date-range}}"><!--
+-->{{#if: {{{Owned Date|}}}
+	|{{DateFormatDate
+	|Date={{{Owned Date|}}}
+	|Circa={{{Owned Circa}}}
+	|Concurrence={{{Owned Concurrence|Exact}}}
+	|Questionable={{{Owned Questionable|}}}
+	}}
+    }}<!--
+    -->{{#if: {{{Owned End Date|}}}
+    |{{#if: {{{Owned Date|}}}|&#32;&ndash;&#32;}}{{DateFormatDate
+	|Date={{{Owned End Date|}}}
+	|Circa={{{Owned End Circa}}}
+	|Concurrence={{{Owned End Concurrence|Exact}}}
+	|Questionable={{{Owned End Questionable|}}}
+	}}
+    }}<!--
+--></span><!--
+-->{{#set: Site owner={{{Name|}}};{{{Owned Date|}}};{{{Owned End Date|}}} }}<!--
+--></includeonly><noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

@@ -20,11 +20,6 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/MediaWiki%2FHeald-places.css.mediawiki"
                 },
                 {
-                    "name": "Alternate name",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FAlternate%20name.mediawiki"
-                },
-                {
                     "name": "Associated person",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FAssociated%20person.mediawiki"

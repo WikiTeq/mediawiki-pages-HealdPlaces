@@ -20,7 +20,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 |-
 ! Location: 
 | {{{field|Location|feeds to map=Place[Coordinates]}}}
-{{Geolocation field set|Place}}
+{{Geolocation field set|Place|Full address=hide}}
 |-
 ! Condition: 
 | {{{field|Condition}}}

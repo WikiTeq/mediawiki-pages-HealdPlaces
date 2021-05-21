@@ -83,6 +83,11 @@
                     "name": "Site owner",
                     "namespace": "NS_TEMPLATE",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Template%2FSite%20owner.mediawiki"
+                },
+                {
+                    "name": "Places",
+                    "namespace": "NS_CATEGORY",
+                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Category%2FPlaces.mediawiki"
                 }
             ],
             "requiredExtensions": [

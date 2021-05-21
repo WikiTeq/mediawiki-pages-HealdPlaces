@@ -25,7 +25,12 @@
   |EndQuestionable={{{Through Questionable End|}}}
 }}
 
-'''Location:''' [[Location::{{{Location|}}}]]
+'''Location:''' [[Location::{{{Location|}}}]] {{Geolocation
+  |Full address={{{Full address|}}}
+  |Coordinates={{{Coordinates|}}}
+  |Geolocation link={{{Geolocation link|}}}
+  |inline
+}}
 
 '''Condition:''' [[Condition::{{{Condition|}}}]]
 

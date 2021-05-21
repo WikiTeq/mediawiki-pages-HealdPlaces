@@ -41,6 +41,7 @@ if a page with that name already exists, you will be sent to a form to edit that
 <!-- -->{{{for template|Associated person|multiple|embed in field=Place[Associated people]|add button text=Add person}}}
 <!-- -->{{Associated people field set|hide-end-date}}
 <!-- -->{{{end template}}}
+<!-- -->{{{for template|Site owner|multiple|embed in field=Place[Site owners]|add button text=Add site owner}}}
 <!-- -->{| class="formtable"
 <!-- -->! Name: 
 <!-- -->| {{{field|Name|input type=combobox|values from category=People}}}

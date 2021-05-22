@@ -1,6 +1,5 @@
-<includeonly><nowiki/>
-* [[{{{Name|}}}]]{{#if: {{{Role|}}}|, {{{Role|}}}}} <!--
-  --><span class="{{#if:{{{From Date|}}}{{{End Date|}}}|date-range}}"><!--
+<includeonly><span class="delimited-el">[[{{{Name|}}}]] <!--
+  -->{{#if:{{{From Date|}}}{{{End Date|}}}|(<span class="date-range"><!--
   -->{{#if: {{{From Date|}}}
        |{{DateFormatDate
          |Date={{{From Date|}}}
@@ -10,13 +9,13 @@
         }}
      }}<!--
   -->{{#if: {{{End Date|}}}
-       |{{#if: {{{From Date|}}}|&#32;&ndash;&#32;}}{{DateFormatDate
+       |{{#if: {{{From Date|}}}|&ndash;}}{{DateFormatDate
          |Date={{{End Date|}}}
          |Circa={{{End Circa}}}
          |Concurrence={{{End Concurrence|Exact}}}
          |Questionable={{{End Questionable|}}}
         }}
      }}<!--
-  --></span><!--
-  -->{{#set: Associated person={{{Name|}}};{{{Role|}}};{{{From Date|}}};{{{End Date}}}}}</includeonly><noinclude>
+  --></span>)|(dates unknown)}}{{#if: {{{Role|}}}|, {{lc:{{{Role|}}}}}}}<span class="delimiter">;&#32;</span></span><!--
+  -->{{#set: Associated person={{{Name|}}};{{{Role|}}};{{{From Date|}}};{{{End Date|}}}}}</includeonly><noinclude>
 [[Category:Mediawiki-pages-heald-places]]</noinclude>

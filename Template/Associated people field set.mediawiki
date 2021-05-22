@@ -5,7 +5,7 @@
 </tr>
 <tr>
   <td> '''Role:''' </td>
-  <td> {{{field{{!}}Role{{!}}input type=combobox{{!}}property=Role{{!}}mandatory}}} </td>
+  <td> {{{field{{!}}Role{{!}}input type=combobox{{!}}property=Role}}} </td>
 </tr>
 </table>
 <table>

@@ -40,11 +40,6 @@
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FFrom%20Date.mediawiki"
                 },
                 {
-                    "name": "Location",
-                    "namespace": "SMW_NS_PROPERTY",
-                    "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FLocation.mediawiki"
-                },
-                {
                     "name": "Name",
                     "namespace": "SMW_NS_PROPERTY",
                     "url": "https:\/\/raw.githubusercontent.com\/WikiTeq\/mediawiki-pages-HealdPlaces\/master\/Property%2FName.mediawiki"

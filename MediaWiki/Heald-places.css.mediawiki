@@ -15,4 +15,26 @@
      content: ')';
 }
 
+/**
+* Places 
+*/
+
+.heald-infobox p { margin-bottom: 0; line-height: 29px; color: #222222 }
+
+/**
+* General 
+*/
+
+h2, .h2 {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border-bottom: none;
+}
+
+#bodyContent p, #bodyContent dd, #bodyContent dl {
+    line-height: 29px;
+    font-size: 17px;
+}
 <noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

@@ -34,7 +34,12 @@
 <p>'''Associated People:''' <span class="delimited-series">{{{Associated people|}}}</span></p>
 }}<!--
   -->{{#if: {{{Location|}}}|
-<p>'''Location:''' [[Location::{{{Location|}}}]]</p>
+<p>'''Location:''' [[Location::{{{Location|}}}]] {{Geolocation
+|Full address={{{Full address|}}}
+|Coordinates={{{Coordinates|}}}
+|Geolocation link={{{Geolocation link|}}}
+|inline
+}}</p>
 }}<!--
   -->{{#if: {{{Condition|}}}|
 <p>'''Condition:''' [[Condition::{{{Condition|}}}]]</p>
@@ -44,13 +49,7 @@
 }}<!--
   -->{{#if: {{{Other resources|}}}|
 <p>'''Other Resources:''' <span class="delimited-series">{{{Other resources|}}}</span></p>
-}}<!--
-  --><p>{{Geolocation
-|Full address={{{Full address|}}}
-|Coordinates={{{Coordinates|}}}
-|Geolocation link={{{Geolocation link|}}}
-|plain
-}}</p>
+}}
 </div>
 [[Category:Places]]
 </includeonly><noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>

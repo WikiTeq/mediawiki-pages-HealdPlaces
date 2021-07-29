@@ -1,5 +1,5 @@
-<includeonly><span class="delimited-el">[[{{{Name|}}}]] <!--
-  -->{{#if:{{{From Date|}}}{{{End Date|}}}|<span class="date-range"><!--
+<includeonly><span class="delimited-el">[[{{{Name|}}}]]<!--
+  -->{{#if:{{{From Date|}}}{{{End Date|}}}|&#32;<span class="date-range"><!--
   -->{{#if: {{{From Date|}}}
        |{{DateFormatDate
          |Date={{{From Date|}}}
@@ -16,6 +16,6 @@
          |Questionable={{{End Questionable|}}}
         }}
      }}<!--
-  --></span>|(dates unknown)}}{{#if: {{{Role|}}}|, {{lc:{{{Role|}}}}}}}<span class="delimiter">;&#32;</span></span><!--
+  --></span>}}{{#if: {{{Role|}}}|, {{lc:{{{Role|}}}}}}}<span class="delimiter">;&#32;</span></span><!--
   -->{{#set: Associated person={{{Name|}}};{{{Role|}}};{{{From Date|}}};{{{End Date|}}}}}</includeonly><noinclude>
 [[Category:Mediawiki-pages-heald-places]]</noinclude>

@@ -1,4 +1,5 @@
-<includeonly><span class="delimited-el">[[{{{Name|}}}]] {{#if:{{{Owned Date|}}}{{{Owned Date End|}}}|<span class="date-range"><!--
+<includeonly><span class="delimited-el">[[{{{Name|}}}]]{{#if:{{{Owned Date|}}}{{{Owned Date End|}}}
+  |&#32;<span class="date-range"><!--
   -->{{#if: {{{Owned Date|}}}
        |{{DateFormatDate
          |Date={{{Owned Date|}}}
@@ -15,7 +16,6 @@
          |Questionable={{{Owned Questionable End|}}}
         }}
      }}<!--
-  --></span>|(dates unknown)}}<span class="delimiter">;&#32;</span></span><!--
+  --></span>}}<span class="delimiter">;&#32;</span></span><!--
   -->{{#set: Site owner={{{Name|}}};{{{Owned Date|}}};{{{Owned Date End|}}} }}<!--
   --></includeonly><noinclude>[[Category:Mediawiki-pages-heald-places]]</noinclude>
-  

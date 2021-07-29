@@ -7,20 +7,24 @@
   -->{{#if: {{{Established Date|}}}{{{Through Date|}}}{{{Established Date End|}}}{{{Through Date End|}}}|
 <p>'''Site Dates:'''  {{Date
   |Established
+  |Present={{{Established Present|}}}
   |Date={{{Established Date|}}}
   |Circa={{{Established Circa|}}}
   |Concurrence={{{Established Concurrence|}}}
   |Questionable={{{Established Questionable|}}}
+  |EndPresent={{{Established Present End|}}}
   |EndDate={{{Established Date End|}}}
   |EndCirca={{{Established Circa End|}}}
   |EndConcurrence={{{Established Concurrence End|}}}
   |EndQuestionable={{{Established Questionable End|}}}
 }}&ndash;{{Date
   |Through
+  |Present={{{Through Present|}}}
   |Date={{{Through Date|}}}
   |Circa={{{Through Circa|}}}
   |Concurrence={{{Through Concurrence|}}}
   |Questionable={{{Through Questionable|}}}
+  |EndPresent={{{Through Present End|}}}
   |EndDate={{{Through Date End|}}}
   |EndCirca={{{Through Circa End|}}}
   |EndConcurrence={{{Through Concurrence End|}}}

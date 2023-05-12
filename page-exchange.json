@@ -5,7 +5,7 @@
     "url": "https:\/\/github.com\/WikiTeq\/mediawiki-pages-HealdPlaces",
     "packages": {
         "HEALD Places": {
-            "globalID": "heald-places",
+            "globalID": "com.wikiteq.HealdPlaces",
             "description": "Contains the Place data structure for the HEALD wiki.",
             "version": "0.1",
             "pages": [
